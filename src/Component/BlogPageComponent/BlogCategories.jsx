@@ -421,9 +421,10 @@ const styles = {
       overflowY: 'auto', // Allow the form content to scroll if necessary
     },
     input: {
+      marginTop: '3px',
       width: '100%',
       padding: '10px',
-      margin: '10px 0',
+      marginBottom: '10px',
       border: '1px solid #ccc',
       borderRadius: '4px',
     },
@@ -435,6 +436,7 @@ const styles = {
       border: 'none',
       borderRadius: '4px',
       cursor: 'pointer',
+      marginTop: '10px'
     },
     cancelButton: {
       width: '100%',
@@ -450,7 +452,7 @@ const styles = {
       width: '100%', // Limit the width of the image preview
       maxHeight: '300px', // Limit the height of the image preview
       objectFit: 'contain', // Ensure the image scales properly
-      marginTop: '10px',
+      marginTop: '20px',
     },
     confirmModal: {
       backgroundColor: '#fff',
@@ -462,7 +464,7 @@ const styles = {
     },
     quillEditor: {
         height: '200px',
-        marginBottom: '10px',
+        marginBottom: '50px',
       },
 };
   
